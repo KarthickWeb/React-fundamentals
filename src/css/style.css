@@ -1,7 +1,6 @@
 header {
-    background-image: url(./imgs/header.jpg);
+    background-image: url(../imgs/header.jpg);
     background-size: cover;
-    height: 75vh;
 }
 
 .small-container {
@@ -29,7 +28,7 @@ header {
 }
 
 h2 span, h1 span {
-    color: #00FA9A;
+    color: #bd8cbf;
 }
 
 li {
@@ -52,8 +51,44 @@ body {
     font-size: 1.1rem;
 }
 
+/* navbar */
 
+nav.navbar {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: transparent;
+    width: 100%;
+    z-index: 1000;
+    font-family: 'Open Sans', sans-serif;
+}
 
+nav.navbar a, nav.navbar ul li a {
+    color: #FFF !important;
+}
+
+nav.navbar ul li {
+    padding: 0 15px;
+}
+
+nav.navbar .search-container {
+    position: relative;
+}
+
+nav.navbar form {
+    padding: 5px;
+    background-color: white;
+    position: absolute;
+    width: 260px;
+    display: none;
+}
+
+nav.navbar form input {
+    padding: 5px 10px;
+    border: 1px solid #b7b5b5;
+    background-color: #e6e3e3;
+    width: 100%;
+}
 
 /* header */
 
@@ -61,7 +96,6 @@ header {
     position: relative;
     color: #FFF;
     font-family: 'Roboto', sans-serif;
-    
 }
 
 header .container {
@@ -94,8 +128,8 @@ header button a {
 }
 
 header button:hover {
-    background-color: #00FA9A;
-    border: 1px solid #00FA9A;
+    background-color: #bd8cbf;
+    border: 1px solid #bd8cbf;
 }
 
 header button:hover a {
@@ -118,7 +152,7 @@ header button:hover a {
 .about-us .small-container > p + div {
     padding: 70px 0;
     background-color: white;
-    box-shadow: 5px 5px 10px #808080, -5px -5px 10px #808080;
+    box-shadow: 5px 5px 10px #d2cfcf, -5px -5px 10px #d2cfcf;
 }
 
 .about-us .small-container > p + div h4 {
@@ -132,7 +166,7 @@ header button:hover a {
 }
 
 .about-us .small-container > p + div button {
-    background-color: #808080;
+    background-color: #bd8cbf;
     border: none;
 }
 
@@ -146,7 +180,7 @@ header button:hover a {
     width: 200px;
     position: absolute;
     color: white;
-    background-color: #808080;
+    background-color: #bd8cbf;
 }
 
 .about-us .item p {
@@ -170,14 +204,14 @@ header button:hover a {
     left: 405px;
     bottom: 115px;
     z-index: 2;
-    box-shadow: -2px 2px 10px #808080;
+    box-shadow: -2px 2px 10px #5d5959;
 }
 
 .about-us .item:nth-of-type(2) {
     left: 105px;
     bottom: 115px;
     z-index: 2;
-    box-shadow: 2px 2px 10px #808080;
+    box-shadow: 2px 2px 10px #5d5959;
 }
 
 .about-us .item:nth-of-type(3) {
@@ -202,7 +236,7 @@ header button:hover a {
     width: 100px;
     height: 200px;
     position: absolute;
-    background-color: #808080;
+    background-color: #bd8cbf;
     top: 140px;
     z-index: -5;
 }
@@ -211,7 +245,7 @@ header button:hover a {
     width: 100px;
     height: 200px;
     position: absolute;
-    background-color: #808080;
+    background-color: #bd8cbf;
     bottom: 58px;
     right: 34px;
     z-index: -5;
@@ -220,7 +254,7 @@ header button:hover a {
 .about-us .row > div > .item:nth-of-type(3) div {
     position: relative;
     z-index: 5;
-    background-color: #808080;
+    background-color: #bd8cbf;
     padding: 5px;
 }
 
@@ -249,12 +283,12 @@ header button:hover a {
 .services .carousel-control-next, .services .carousel-control-prev {
     width: 60px;
     height: 60px;
-    background: #00FA9A;
+    background: #bd8cbf;
     border-radius: 50%;
 }
 
 .services .carousel-control-next i, .services .carousel-control-prev i {
-    color: #000;
+    color: #000
 }
 
 .services .carousel-control-next {
@@ -270,13 +304,13 @@ header button:hover a {
 }
 
 .services i {
-    color: #00FA9A;
+    color: #bd8cbf;
 }
 
 /* agency */
 
 .agency {
-    background-image: url('./imgs/agency.jpg');
+    background-image: url('../imgs/agency.jpg');
     font-family: 'Open Sans', sans-serif;
     background-size: cover;
 }
@@ -321,7 +355,7 @@ header button:hover a {
 }
 
 .statistics i, .statistics p {
-    color: #00FA9A;
+    color: #bd8cbf;
 }
 
 .statistics i {
@@ -337,7 +371,7 @@ header button:hover a {
 /* contact */
 
 .contact {
-    background-image: url('./imgs/contact.jpg');
+    background-image: url('../imgs/contact.jpg');
     background-size: cover;
 }
 
@@ -375,7 +409,7 @@ header button:hover a {
     height: 40px;
     padding: 0;
     line-height: 40px;
-    background-color: #00FA9A;
+    background-color: #ef44f8;
     color: white;
     margin: 0 auto;
     display: block;
@@ -390,11 +424,11 @@ footer, footer a {
 footer {
     display: block;
     overflow: hidden;
-    background-color: #808080;
+    background-color: #563158;
 }
 
 footer a:hover {
-    color: #00FA9A;
+    color: #bd8cbf
 }
 
 footer .container > ul {
@@ -532,7 +566,6 @@ footer .copyright p {
     
     header h1 {
         font-size: 65px !important;
-
     } 
     
     /* navbar */
@@ -610,7 +643,6 @@ footer .copyright p {
     
     header h1 {
         font-size: 50px !important;
-
     } 
     
     /* about */
