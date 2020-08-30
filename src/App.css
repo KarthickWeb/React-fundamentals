@@ -1,5 +1,5 @@
 header {
-    background-image: url(./imgs/header.jpg);
+    background-image: url(./components/images/header.jpg);
     background-size: cover;
     height: 75vh;
 }
@@ -224,59 +224,11 @@ header button:hover a {
     padding: 5px;
 }
 
-/* services */
-
-.services {
-    margin-bottom: 100px;
-    font-family: 'Open Sans', sans-serif;
-}
-
-.services .slide {
-    width: 70%;
-    margin: 0 auto;
-}
-
-.services .carousel-inner .carousel-item {
-    width: 100%;
-    height: 100%
-}
-
-.services .carousel-inner img {
-    height: 100%;
-    width: 100%;
-}
-
-.services .carousel-control-next, .services .carousel-control-prev {
-    width: 60px;
-    height: 60px;
-    background: #00FA9A;
-    border-radius: 50%;
-}
-
-.services .carousel-control-next i, .services .carousel-control-prev i {
-    color: #000;
-}
-
-.services .carousel-control-next {
-    right: 0;
-    top: 80%;
-    right: 40%;
-    background-color: #FFF;
-}
-
-.services .carousel-control-prev {
-    top: 80%;
-    left: 40%;
-}
-
-.services i {
-    color: #00FA9A;
-}
 
 /* agency */
 
 .agency {
-    background-image: url('./imgs/agency.jpg');
+    background-image: url('./components/images/agency.jpg');
     font-family: 'Open Sans', sans-serif;
     background-size: cover;
 }
@@ -337,7 +289,7 @@ header button:hover a {
 /* contact */
 
 .contact {
-    background-image: url('./imgs/contact.jpg');
+    background-image: url('./components/images/contact.jpg');
     background-size: cover;
 }
 
@@ -446,7 +398,7 @@ footer .item form input[type="submit"] {
     width: 100px;
     height: 40px;
     line-height: 4px;
-    background-color: #ef44f8;
+    background-color: #00FA9A;
     border: none;
     float: right;
     color: #FFF;
