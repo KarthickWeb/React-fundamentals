@@ -7,12 +7,12 @@ export default class Footer extends Component {
 			<footer>
             <div class="container">
                 <ul>
-                    <li><a href="#"><i className="fa fa-facebook-f"></i></a></li>
-                    <li><a href="#"><i className="fa fa-twitter"></i></a></li>
-                    <li><a href="#"><i className="fa fa-instagram"></i></a></li>
+                    <li><i className="fa fa-facebook-f"></i></li>
+                    <li><i className="fa fa-twitter"></i></li>
+                    <li><i className="fa fa-instagram"></i></li>
 
-                    <li><a href="#"><i className="fa fa-linkedin-square"></i></a></li>
-                    <li><a href="#"><i className="fa fa-envelope"></i></a></li>
+                    <li><i className="fa fa-linkedin-square"></i></li>
+                    <li><i className="fa fa-envelope"></i></li>
                 </ul>
                 <div className="row">
                     <div className="col-lg-6 col-md-6 col-12">

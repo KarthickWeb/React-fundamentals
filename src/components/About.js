@@ -16,22 +16,22 @@ export default class About extends Component {
                         <div className="row">
                             <div className="col-lg-6 col-12 text-center">
                                 <div className="item">
-                                    <img src={photo2} />
+                                    <img src={photo2} alt="logo" />
                                     <h5 className="text-uppercase">Html/css</h5>
                                 </div>
                                 <div className="item">
-                                    <img src={photo1} />
+                                    <img src={photo1} alt="logo"/>
                                     <h5 className="text-uppercase">Reactjs</h5>
                                 </div>
                                 <div className="item">
-                                    <img src={photo4} />
+                                    <img src={photo4} alt="logo"/>
                                     <div>
                                         <h5 className="text-uppercase">Career</h5>
                                         <p>SampleProjects Project developed by Reactjs framework.</p>
                                     </div>
                                 </div>
                                 <div className="item">
-                                    <img src={photo3} />
+                                    <img src={photo3} alt="logo"/>
                                     <h5 className="text-uppercase">Reactjs</h5>
                                 </div>
                             </div>
@@ -41,7 +41,7 @@ export default class About extends Component {
                                         different languages and libraries. While these vary from application to application, 
                                         there are only a few generic languages understood by all web browsers.These three main
                                         front-end coding languages are HTML, CSS and JavaScript</p>
-                                <button className="text-center"><a href="#" className="text-capitalize">Click Here</a></button>
+                                
                             </div>
                         </div>
                     </div>
